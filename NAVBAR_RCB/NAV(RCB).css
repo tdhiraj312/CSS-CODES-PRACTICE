@@ -1,0 +1,60 @@
+.logobox{
+    
+    height: 97px;
+    width: 85px;
+}
+.logosize{
+    height: 100px;
+    width: 70px;
+    align-items: center;
+    margin-left:7px;
+}
+.ADD{
+    height: 50px;
+    width: 70%;
+    
+}
+.logodesign{
+    margin-right: 10px;
+    width: 100px;
+    padding-top: 15px;
+    
+}
+ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.container{
+    
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color: rgba(214, 0, 0, 100);
+    
+    
+}
+.container2{
+    border-radius: 50%;
+    height: 50px;
+    width: 100%; 
+    display: flex;
+    align-content: end;
+    justify-content: space-between;
+    
+      
+}
+.container3{
+   
+    height: 43px;
+    width: 93%;
+    margin-top: -48px;
+    margin-left: 6.7%;
+    color:aliceblue;
+    
+}
+li:hover{
+    color: black;
+}
+

@@ -1,0 +1,33 @@
+*{
+     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+#but1{
+   height: 100px;
+   width: 100px;
+   background-color: aqua;
+ 
+}
+#but1:hover{
+    
+    transform: translate(20px,70px);
+    transition: 0.5s;
+}
+.box1{
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    border: 5px solid;
+      margin: 0 auto;
+      align-content: center;
+}
+.box1:hover #but1{
+    transform: translateX(390px);
+    transition-duration: 3s;
+    transition-timing-function:steps(10);
+    /* transition-delay: 0.3s; */
+    
+    
+}

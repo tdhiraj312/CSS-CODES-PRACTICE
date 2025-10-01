@@ -1,0 +1,312 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Main{
+    height:100vh;
+    width:100vw;
+    
+     display: flex;
+     background-image:url('https://t4.ftcdn.net/jpg/03/64/41/07/240_F_364410753_6bqjhBadqWM8Do6BCMA7J3q7EmgqgZHd.jpg')
+}
+.Card1{
+   
+    height: 560px;
+    width:300px;
+   box-shadow: 10px 10px 10px black;
+    border-radius: 20px;
+
+    margin:20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.Card1:hover{
+    transform: scale(1.1);
+     transition: 0.5s;
+    cursor: pointer;
+}
+.image-container{
+    position: relative;
+    height:250px;
+    width:290px;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.image-container img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: opacity 0.6s ease-in-out;
+}
+.image-container:hover .hover-img{
+     opacity: 0;
+}   
+
+.image-container:hover .main-img{
+    opacity: 1;
+}
+.image-conatiner{
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    padding: 20px;
+    justify-content: space-around;
+    
+}
+.image-container:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;  
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.B1{
+    height: 30px;
+    width: 50%; 
+    background-color: yellow;
+    margin-left: 20px;
+    border-radius: 5%;
+}
+.BB1{
+    height: 30px;
+    width: 30%;
+    background-color: rgb(250, 212, 41);
+    justify-content: space-evenly;
+    margin-left: 20px;
+   
+}
+.B1:hover{
+    background-color: rgb(236, 178, 17);
+    color: black;
+    cursor: pointer;
+     transform: scaleY(1.1);
+    transition: 0.5s;
+     
+   
+}
+.BB1:hover{
+    background-color: rgb(236, 178, 17);
+    color: black;
+    cursor: pointer;
+      transform: scale(1.2);
+    transition: 3s;
+   transform: rotate(360deg);
+}
+.Card2{
+    height: 560px;
+    width:300px;
+   box-shadow: 10px 10px 10px black;
+    border-radius: 20px;
+    margin:20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Card2:hover:hover{
+    transform: scale(1.1);
+     transition: 0.5s;
+    cursor: pointer;
+}
+#img2{
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    padding: 20px;
+    justify-content: space-around;
+}
+#img2:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    cursor: pointer;
+}
+#A2{
+    
+    height:300px;
+    width:300px;
+    justify-content: space-between;
+}
+.B2{
+    height: 30px;
+    width: 50%; 
+    background-color: yellow;
+    margin-left: 20px;
+    border-radius: 5%;
+    margin-top: 67px;
+}
+.BB2{
+    height: 30px;
+    width: 30%;
+    background-color: rgb(250, 212, 41);
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+.B2:hover{
+    background-color: rgb(236, 178, 17);
+    color: black;
+    cursor: pointer;
+      transform: scaleY(1.1);
+    transition: 0.5s;
+}
+.BB2:hover{
+    background-color: rgb(236, 178, 17);
+    color: black;
+    cursor: pointer;
+       transform: scale(1.2);
+    transition: 3s;
+   transform: rotate(360deg);
+   
+}
+.Card3{
+     height: 560px;
+    width:300px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 20px;
+    margin:20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Card3:hover{
+    transform: scale(1.1);
+     transition: 0.5s;
+    cursor: pointer;
+}
+#img3{
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    padding: 20px;
+    justify-content: space-around;
+}
+#img3:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    cursor: pointer;
+}
+#A3{
+    
+    height:300px;
+    width:300px;
+    justify-content: space-between;
+}
+.B3{
+    height: 30px;
+    width: 50%; 
+    background-color:yellow;
+    margin-left: 20px;
+    border-radius: 5%;
+    margin-top: 33px;
+}
+.BB3{
+    height: 30px;
+    width: 30%;
+    background-color:  rgb(236, 178, 17);
+    margin-left: 20px;
+    border-radius: 5%;
+}
+.B3:hover{
+    background-color: rgb(236, 178, 17);
+    color: black;
+    cursor: pointer;
+      transform: scale(1.2);
+    transition: 0.5s;
+   
+}
+.BB3:hover{
+    background-color: rgb(236, 178, 17);
+    color: black;
+    cursor: pointer;
+      transform: scale(1.2);
+    transition: 0.5s;
+       transform: scale(1.2);
+    transition: 3s;
+   transform: rotate(360deg);
+   
+}
+.Card4{
+   height: 560px;
+    width:300px;
+   box-shadow: 10px 10px 10px black;
+    border-radius: 20px;
+    margin:20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Card4:hover{
+    transform: scale(1.1);
+     transition: 0.5s;
+    cursor: pointer;
+}
+#A4{
+    
+    height:300px;
+    width:330px;
+    justify-content: space-between;
+}
+#img4{
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    padding: 20px;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+#img4:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.B4{
+     height: 30px;
+    width: 50%; 
+    background-color: yellow;
+    margin-left: 20px;
+    border-radius: 5%;
+    margin-top: 34px;
+}
+.BB4{
+    height: 30px;
+    width: 30%;
+    background-color:  rgb(236, 178, 17);
+    justify-content: space-evenly;
+    margin-left: 20px;
+    border-radius: 5%;
+}
+.B4:hover{
+    background-color: rgb(236, 178, 17);
+    color: black;
+    cursor: pointer;
+      transform: scale(1.2);
+    transition: 0.5s;
+   
+}
+.BB4:hover{
+    background-color:  rgb(236, 178, 17);
+    color: black;
+    cursor: pointer;
+      transform: scale(1.2);
+    transition: 0.5s;
+       transform: scale(1.2);
+    transition: 3s;
+   transform: rotate(360deg);
+   
+}

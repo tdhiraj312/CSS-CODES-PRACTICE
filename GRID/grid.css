@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .container{
+
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    grid-template-areas: "A1 B1 C1"
+                         "A1 D1 C1"
+                         "E1 D1 C1"
+                         "F1 F1 G1";
+
+}
+div{
+    border: 1px solid black;
+    
+}
+.box1{
+    grid-area:A1;
+}
+.box2{
+     grid-area:B1;
+}
+.box3{
+     grid-area:C1;
+}
+.box4{
+     grid-area:D1;
+}
+.box5{
+     grid-area:E1;
+}
+.box6{
+     grid-area:F1;
+}
+.box7{
+     grid-area:G1; */
+/* } */
+.container2{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+   
+    
+    
+    grid-template-areas: "A1 A1 A1"
+                         "B1 C1 C1"
+                         "B1 D1 E1"
+                         "F1 F1 F1";
+                       
+}
+div{
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.box1{
+    grid-area: A1;
+    text-align: center;
+    height: 100px;
+   
+   
+}
+.box2{
+    grid-area: B1;
+     text-align: center;
+}
+.box3{
+    grid-area: C1;
+     text-align: center;
+}
+.box4{
+    grid-area: D1;
+     text-align: center;
+}
+.box5{
+    grid-area: E1;
+     text-align: center;
+}
+.box6{
+    grid-area: F1;
+     text-align: center;
+}
+

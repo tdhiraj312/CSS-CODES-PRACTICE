@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    margin: 30px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.container .ball{
+    height: 70px;
+    width: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    background: conic-gradient(red,pink,yellow,blue,green);
+    animation-name: ball;
+    animation-duration: 5s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+.container .box{
+    height: 350px;
+    width: 460px;
+    border: 1px solid;
+}
+@keyframes ball{
+    0%{
+        transform: translate(-230px, 28px) rotate(400deg);
+    }
+    25%{
+         transform: translate(268px, 28px) rotate(800deg);
+           background: radial-gradient(red,pink,yellow,blue,green);
+    }
+    50%{
+        transform: translate(268px, 453px) rotate(1200deg);
+           background: linear-gradient(red,pink,yellow,blue,green);
+    }
+    75%{
+         transform: translate(-270px, 453px) rotate(1600deg);
+           background: conic-gradient(red,pink,yellow,blue,green);
+    }
+    100%{
+         transform: translate(-270px, 28px) rotate(2000deg);
+           background: radial-gradient(red,pink,yellow,blue,green);
+    }
+}

@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5898f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.payment-form-container {
+    background-color: #f8f6f6;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    overflow: hidden;
+}
+
+.payment-form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+    background-color: #f7f7f7;
+}
+
+.payment-form-header h2 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 1.8em;
+    color: #999;
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+.close-button:hover {
+    color: #666;
+}
+
+.payment-form {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+    font-size: 0.9em;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="number"],
+.form-group select {
+    width: calc(100% - 20px); /* Adjust for padding */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.form-group input[type="date"] {
+    /* Specific styling for date input if needed */
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #007bff; /* Highlight on focus */
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff; /* Blue button, similar to the image */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 10px; /* Space above the button */
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

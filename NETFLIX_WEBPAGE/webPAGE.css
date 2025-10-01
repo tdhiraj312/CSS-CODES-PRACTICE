@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    height: 100vh;
+    width: 100vw;
+    
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/6863f6e8-d419-414d-b5b9-7ef657e67ce4/web/IN-en-20250602-TRIFECTA-perspective_27a3fdfa-126f-4148-b153-55d60b51be6a_large.jpg); */ */ */ */ */ */ */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+}
+.language{
+   height: 50px;
+   width: 100px;
+   margin-left: 140vh;
+   background: none;
+
+    
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    &:hover {
+        background-color: red;
+        transform: scale(1.05);
+    }
+   
+    
+   
+}
+.login{
+    background: none;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container1{
+   
+    height: 70%;
+    width: 100%;
+}
+div{
+    color:aliceblue;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    
+    border-radius: 10px;
+    
+    transition: background-color 0.3s ease;
+    &:hover {
+       
+    }
+
+}
+.email{
+    
+    height: 50px;
+    width: 300px;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: border-color 0.3s ease;
+    &:focus {
+        border-color: white;
+        outline: none;
+    }
+}
+button{
+   
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    &:hover {
+        background-color: red;
+        transform: scale(1.05);
+    }
+}
+.navbar{
+    
+    height: 100px;
+    width: 100vw;
+    margin-bottom: auto;
+}
+.logo{
+   
+    height: 60px;
+    width: 160px;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+.logo-img{
+    height: 170%;
+    width: 100%;
+    
+    object-fit: contain;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
